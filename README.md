@@ -1,4 +1,4 @@
-# nbb Serverless example
+# nbb serverless example
 
 This example demonstrates how to deploy and run CLJS code on AWS Lambda NodeJS 14.x runtime using [Serverless Framework](https://www.serverless.com/).
 
