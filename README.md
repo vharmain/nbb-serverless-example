@@ -11,8 +11,8 @@ We setup a simple HTTP POST endpoint on API Gateway that proxies requests to a l
 
 ## Setup, deployment and testing
 
-`npm install`
-`npx sls deploy`
+* `npm install`
+* `npx sls deploy`
 
 Grab the endpoint URL from the output and call it like this:
 
