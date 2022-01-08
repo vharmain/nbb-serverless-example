@@ -1,0 +1,14 @@
+logs
+*.log
+npm-debug.log
+pids
+*.pid
+*.seed
+dist
+build/Release
+node_modules
+.DS_Store
+.tmp
+.env
+_meta
+.serverless

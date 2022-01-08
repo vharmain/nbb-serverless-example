@@ -1,0 +1,19 @@
+service: nbb-serverless-example
+
+frameworkVersion: '2 || 3'
+
+provider:
+  name: aws
+  region: eu-west-1
+  runtime: nodejs14.x
+  architecture: arm64
+  memorySize: 128
+  lambdaHashingVersion: 20201221
+
+functions:
+  add:
+    handler: index.handler
+    events:
+      - http:
+          path: add
+          method: post
