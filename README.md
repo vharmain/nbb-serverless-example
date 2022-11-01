@@ -20,6 +20,13 @@ Grab the endpoint URL from the output and call it like this:
 curl -X POST -H "Content-Type: application/json" -d '{"x":1,"y":2}' https://1xz3t07x70.execute-api.us-east-1.amazonaws.com/dev/add
 ```
 
+...or
+```shell
+ npx sls invoke --function add --data '{"body":"{\"x\":1,\"y\":2}"}'
+```
+
+NOTE: `npx sls invoke local` does not work due to https://github.com/serverless/serverless/issues/11308
+
 ## Develop
 
 You can edit the code locally or directly in the Lambda Console.
